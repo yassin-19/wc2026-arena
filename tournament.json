@@ -1,0 +1,190 @@
+{
+  "tournament": "World Cup 2026 Arena Simulation",
+  "stage": "group",
+  "last_updated": "2026-05-01T00:00:00Z",
+
+  "ball_tiers": {
+    "description": "Based on November 2025 FIFA Rankings used for the official draw",
+    "tier1": { "rank_range": "1-8",   "balls": 8, "label": "Elite" },
+    "tier2": { "rank_range": "9-16",  "balls": 7, "label": "Strong" },
+    "tier3": { "rank_range": "17-28", "balls": 6, "label": "Solid" },
+    "tier4": { "rank_range": "29-40", "balls": 5, "label": "Competitive" },
+    "tier5": { "rank_range": "41+",   "balls": 4, "label": "Underdog" }
+  },
+
+  "teams": {
+    "ESP": { "name": "Spain",                "flag": "🇪🇸", "fifa_rank": 1,  "balls": 8, "group": "H", "color": "#c60b1e" },
+    "ARG": { "name": "Argentina",            "flag": "🇦🇷", "fifa_rank": 2,  "balls": 8, "group": "J", "color": "#74acdf" },
+    "FRA": { "name": "France",               "flag": "🇫🇷", "fifa_rank": 3,  "balls": 8, "group": "I", "color": "#002395" },
+    "ENG": { "name": "England",              "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "fifa_rank": 4,  "balls": 8, "group": "L", "color": "#cc0000" },
+    "BRA": { "name": "Brazil",               "flag": "🇧🇷", "fifa_rank": 5,  "balls": 8, "group": "C", "color": "#009c3b" },
+    "POR": { "name": "Portugal",             "flag": "🇵🇹", "fifa_rank": 6,  "balls": 8, "group": "K", "color": "#006600" },
+    "NED": { "name": "Netherlands",          "flag": "🇳🇱", "fifa_rank": 7,  "balls": 8, "group": "F", "color": "#ff6600" },
+    "BEL": { "name": "Belgium",              "flag": "🇧🇪", "fifa_rank": 8,  "balls": 8, "group": "G", "color": "#ed2939" },
+
+    "SUI": { "name": "Switzerland",          "flag": "🇨🇭", "fifa_rank": 9,  "balls": 7, "group": "B", "color": "#ff0000" },
+    "GER": { "name": "Germany",              "flag": "🇩🇪", "fifa_rank": 10, "balls": 7, "group": "E", "color": "#333333" },
+    "CRO": { "name": "Croatia",              "flag": "🇭🇷", "fifa_rank": 11, "balls": 7, "group": "L", "color": "#cc0000" },
+    "URU": { "name": "Uruguay",              "flag": "🇺🇾", "fifa_rank": 12, "balls": 7, "group": "H", "color": "#5aaad6" },
+    "MAR": { "name": "Morocco",              "flag": "🇲🇦", "fifa_rank": 13, "balls": 7, "group": "C", "color": "#c1272d" },
+    "USA": { "name": "United States",        "flag": "🇺🇸", "fifa_rank": 14, "balls": 7, "group": "D", "color": "#002868" },
+    "MEX": { "name": "Mexico",               "flag": "🇲🇽", "fifa_rank": 15, "balls": 7, "group": "A", "color": "#006847" },
+    "JPN": { "name": "Japan",                "flag": "🇯🇵", "fifa_rank": 16, "balls": 7, "group": "F", "color": "#003087" },
+
+    "COL": { "name": "Colombia",             "flag": "🇨🇴", "fifa_rank": 17, "balls": 6, "group": "K", "color": "#fcd116" },
+    "SEN": { "name": "Senegal",              "flag": "🇸🇳", "fifa_rank": 18, "balls": 6, "group": "I", "color": "#00853f" },
+    "AUT": { "name": "Austria",              "flag": "🇦🇹", "fifa_rank": 19, "balls": 6, "group": "J", "color": "#ed2939" },
+    "AUS": { "name": "Australia",            "flag": "🇦🇺", "fifa_rank": 20, "balls": 6, "group": "D", "color": "#ffcd00" },
+    "KOR": { "name": "South Korea",          "flag": "🇰🇷", "fifa_rank": 21, "balls": 6, "group": "A", "color": "#cd2e3a" },
+    "CAN": { "name": "Canada",               "flag": "🇨🇦", "fifa_rank": 22, "balls": 6, "group": "B", "color": "#ff0000" },
+    "NOR": { "name": "Norway",               "flag": "🇳🇴", "fifa_rank": 23, "balls": 6, "group": "I", "color": "#ef2b2d" },
+    "SWE": { "name": "Sweden",               "flag": "🇸🇪", "fifa_rank": 24, "balls": 6, "group": "F", "color": "#006aa7" },
+    "ALG": { "name": "Algeria",              "flag": "🇩🇿", "fifa_rank": 25, "balls": 6, "group": "J", "color": "#006233" },
+    "IRN": { "name": "Iran",                 "flag": "🇮🇷", "fifa_rank": 26, "balls": 6, "group": "G", "color": "#239f40" },
+    "ECU": { "name": "Ecuador",              "flag": "🇪🇨", "fifa_rank": 27, "balls": 6, "group": "E", "color": "#ffda00" },
+    "CIV": { "name": "Ivory Coast",          "flag": "🇨🇮", "fifa_rank": 28, "balls": 6, "group": "E", "color": "#f77f00" },
+
+    "TUR": { "name": "Türkiye",              "flag": "🇹🇷", "fifa_rank": 29, "balls": 5, "group": "D", "color": "#e30a17" },
+    "CPV": { "name": "Cape Verde",           "flag": "🇨🇻", "fifa_rank": 30, "balls": 5, "group": "H", "color": "#003893" },
+    "QAT": { "name": "Qatar",                "flag": "🇶🇦", "fifa_rank": 31, "balls": 5, "group": "B", "color": "#8d153a" },
+    "ZAF": { "name": "South Africa",         "flag": "🇿🇦", "fifa_rank": 32, "balls": 5, "group": "A", "color": "#007a4d" },
+    "TUN": { "name": "Tunisia",              "flag": "🇹🇳", "fifa_rank": 33, "balls": 5, "group": "F", "color": "#e70013" },
+    "PRY": { "name": "Paraguay",             "flag": "🇵🇾", "fifa_rank": 34, "balls": 5, "group": "D", "color": "#d52b1e" },
+    "SCO": { "name": "Scotland",             "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "fifa_rank": 35, "balls": 5, "group": "C", "color": "#003087" },
+    "CZE": { "name": "Czech Republic",       "flag": "🇨🇿", "fifa_rank": 36, "balls": 5, "group": "A", "color": "#d7141a" },
+    "BIH": { "name": "Bosnia & Herzegovina", "flag": "🇧🇦", "fifa_rank": 37, "balls": 5, "group": "B", "color": "#002395" },
+    "COD": { "name": "DR Congo",             "flag": "🇨🇩", "fifa_rank": 38, "balls": 5, "group": "K", "color": "#007fff" },
+    "NZL": { "name": "New Zealand",          "flag": "🇳🇿", "fifa_rank": 39, "balls": 5, "group": "G", "color": "#ffffff" },
+    "SAU": { "name": "Saudi Arabia",         "flag": "🇸🇦", "fifa_rank": 40, "balls": 5, "group": "H", "color": "#006c35" },
+
+    "HAI": { "name": "Haiti",                "flag": "🇭🇹", "fifa_rank": 41, "balls": 4, "group": "C", "color": "#00209f" },
+    "JOR": { "name": "Jordan",               "flag": "🇯🇴", "fifa_rank": 42, "balls": 4, "group": "J", "color": "#007a3d" },
+    "UZB": { "name": "Uzbekistan",           "flag": "🇺🇿", "fifa_rank": 43, "balls": 4, "group": "K", "color": "#1eb53a" },
+    "CUW": { "name": "Curaçao",              "flag": "🇨🇼", "fifa_rank": 44, "balls": 4, "group": "E", "color": "#002b7f" },
+    "IRQ": { "name": "Iraq",                 "flag": "🇮🇶", "fifa_rank": 45, "balls": 4, "group": "I", "color": "#ce1126" },
+    "GHA": { "name": "Ghana",                "flag": "🇬🇭", "fifa_rank": 46, "balls": 4, "group": "L", "color": "#006b3f" },
+    "EGY": { "name": "Egypt",                "flag": "🇪🇬", "fifa_rank": 47, "balls": 4, "group": "G", "color": "#ce1126" },
+    "PAN": { "name": "Panama",               "flag": "🇵🇦", "fifa_rank": 48, "balls": 4, "group": "L", "color": "#cc0000" }
+  },
+
+  "groups": {
+    "A": {
+      "teams": ["MEX", "ZAF", "KOR", "CZE"],
+      "standings": {
+        "MEX": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "ZAF": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "KOR": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "CZE": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "B": {
+      "teams": ["CAN", "BIH", "QAT", "SUI"],
+      "standings": {
+        "CAN": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "BIH": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "QAT": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "SUI": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "C": {
+      "teams": ["BRA", "MAR", "HAI", "SCO"],
+      "standings": {
+        "BRA": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "MAR": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "HAI": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "SCO": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "D": {
+      "teams": ["USA", "PRY", "AUS", "TUR"],
+      "standings": {
+        "USA": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "PRY": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "AUS": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "TUR": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "E": {
+      "teams": ["GER", "CUW", "CIV", "ECU"],
+      "standings": {
+        "GER": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "CUW": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "CIV": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "ECU": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "F": {
+      "teams": ["NED", "JPN", "SWE", "TUN"],
+      "standings": {
+        "NED": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "JPN": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "SWE": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "TUN": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "G": {
+      "teams": ["BEL", "EGY", "IRN", "NZL"],
+      "standings": {
+        "BEL": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "EGY": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "IRN": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "NZL": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "H": {
+      "teams": ["ESP", "CPV", "SAU", "URU"],
+      "standings": {
+        "ESP": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "CPV": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "SAU": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "URU": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "I": {
+      "teams": ["FRA", "SEN", "IRQ", "NOR"],
+      "standings": {
+        "FRA": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "SEN": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "IRQ": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "NOR": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "J": {
+      "teams": ["ARG", "ALG", "AUT", "JOR"],
+      "standings": {
+        "ARG": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "ALG": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "AUT": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "JOR": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "K": {
+      "teams": ["POR", "COD", "UZB", "COL"],
+      "standings": {
+        "POR": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "COD": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "UZB": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "COL": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    },
+    "L": {
+      "teams": ["ENG", "CRO", "GHA", "PAN"],
+      "standings": {
+        "ENG": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "CRO": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "GHA": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 },
+        "PAN": { "played": 0, "won": 0, "drawn": 0, "lost": 0, "pts": 0 }
+      }
+    }
+  },
+
+  "results": [],
+
+  "knockout": {
+    "r32": [],
+    "r16": [],
+    "qf":  [],
+    "sf":  [],
+    "final": {}
+  }
+}
